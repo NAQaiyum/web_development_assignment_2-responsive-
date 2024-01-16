@@ -47,7 +47,12 @@
 
 .header {
     background: #fff;
-    padding: 52px 135px;
+    /* padding: 52px 135px; */
+    padding-top: 52px;
+    padding-left: 135px;
+    padding-right: 135px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
 }
 
 nav {
@@ -176,6 +181,74 @@ nav li a {
     bottom: 130px; */
 }
 
+/* main portion */
+
+.section-popular {
+    background: #fff;
+    /* padding: 52px 135px; */
+    padding-top: 100px;
+    padding-left: 135px;
+    padding-right: 135px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.popular-tr {
+    position: relative;
+    top: -70px;
+}
+
+.copular-c1 {
+    /* margin-top: 100px; */
+    width: 577px;
+    height: 52px;
+    padding-right: 52px;
+}
+
+.copular-c2 {
+    /* margin-top: 100px; */
+}
+
+.popular {
+    position: relative;
+    top: -25px;
+    color: #131318;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+
+}
+
+.popular-description {
+    position: relative;
+    top: -35px;
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+}
+
+.button-2 {
+    position: relative;
+    top: -20px;
+    width: 174px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FF5400;
+
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    border: none;
+}
 
 
 
@@ -241,7 +314,8 @@ nav li a {
         border-radius: 8px;
         background: #FFF;
     }
-    .button-1{
+
+    .button-1 {
         width: 255px;
         height: 52px;
         border-radius: 8px;
