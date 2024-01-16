@@ -668,16 +668,26 @@ nav li a {
 }
 
 
+
+
+/* responsive portion */
+
 @media screen and (max-width:600px) {
     .header {
-        padding: 20px;
+        padding: 50px;
+        flex-direction: column;
+    }
+
+    .hide-mobile {
+        display: none;
     }
 
     .header-content {
-        width: 335px;
-        height: 483px;
+        width: 370px;
+        height: 505px;
         flex-shrink: 0;
     }
+
 
     .header-1 {
         padding-top: 32px;
@@ -705,6 +715,8 @@ nav li a {
         line-height: 21px;
         position: relative;
         top: -25px;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
         /* 150% */
     }
 
@@ -723,16 +735,174 @@ nav li a {
     }
 
     .input-1 {
-        width: 255px;
+        width: 290px;
         height: 52px;
         border-radius: 8px;
         background: #FFF;
     }
 
     .button-1 {
-        width: 255px;
+        margin-top: 20px;
+        width: 290px;
         height: 52px;
         border-radius: 8px;
+    }
+
+    .section-popular {
+        padding-top: 0px;
+        padding-left: 50px;
+        margin: 0px;
+        position: relative;
+        left: -50px;
+    }
+
+    .popular-tr {
+        flex-direction: column;
+        padding-left: 50px;
+        margin: 0px;
+    }
+
+    .responsive-image-1 {
+        padding-top: 510px;
+    }
+
+    .section-header {
+        flex-direction: column;
+        padding-top: 0px;
+        padding-left: 50px;
+        margin: 0px;
+        position: relative;
+        top: -50px;
+        left: -90px;
+        color: #131318;
+        text-align: center;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+
+    .section-description {
+        position: relative;
+        top: -50px;
+        left: -125px;
+        padding-top: 10px;
+        padding-left: 0px;
+        margin-left: 50px;
+        width: 343px;
+        height: 52px;
+        color: rgba(19, 19, 24, 0.70);
+        text-align: center;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+        margin-bottom: 48px;
+    }
+
+    .row-1 {
+        flex-direction: column;
+        padding-left: 50px;
+        margin-left: 0px;
+        position: relative;
+        left: -80px;
+        width: auto;
+        height: auto;
+        background-color: #FFF;
+    }
+
+    .r1-img1 {
+        position: relative;
+        left: -50px;
+    }
+
+    .row-2 {
+        flex-direction: column;
+        padding-left: 50px;
+        margin-left: 0px;
+        position: relative;
+        top: -330px;
+        left: -80px;
+        width: auto;
+        height: auto;
+    }
+
+    .r2-img1 {
+        position: relative;
+        top: 335px;
+        left: -50px;
+        width: auto;
+    }
+
+    .r2-img2 {
+        position: relative;
+        top: 335px;
+        left: -50px;
+        width: auto;
+    }
+
+    .r2-img3 {
+        position: relative;
+        top: 335px;
+        left: -50px;
+        width: auto;
+    }
+
+    .row-3 {
+        flex-direction: column;
+        padding-left: 50px;
+        padding-top: 5px;
+        position: relative;
+        left: -130px;
+        width: auto;
+        height: auto;
+    }
+
+    .section-choose-title {
+        position: relative;
+        top: -30px;
+        margin-top: 10px;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+
+    .section-choose-description{
+        position: relative;
+        top: -30px;
+        left: -20px;
+        padding-left: 0px;
+        margin-left: 0px;
+        width: 343px;
+        color: rgba(19, 19, 24, 0.70);
+        text-align: center;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+    }
+
+    .first-row-choose{
+        flex-direction: column;
+    }
+
+    .box-1{
+        margin-left: 0px;
+        position: relative;
+        left: -80px;
+    }
+
+    .box-2{
+        margin-left: 0px;
+        position: relative;
+        left: -80px;
+    }
+
+    .box-3{
+        margin-left: 0px;
+        position: relative;
+        left: -80px;
     }
 
 }
