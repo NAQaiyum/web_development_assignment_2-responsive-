@@ -918,6 +918,12 @@ nav li a {
         height: auto;
     }
 
+    .footer{
+        margin-top: 0px;
+        position: relative;
+        top: -100px;
+    }
+
     .footer-heading {
         padding-left: 150px;
         padding-top: 0px;
