@@ -184,6 +184,7 @@ nav li a {
 /* main portion */
 
 .section-popular {
+    
     background: #fff;
     /* padding: 52px 135px; */
     padding-top: 100px;
@@ -195,23 +196,21 @@ nav li a {
 
 .popular-tr {
     position: relative;
-    top: -70px;
+    top: -50px;
+    display: flex;
 }
 
-.copular-c1 {
+.popular-c1 {
     /* margin-top: 100px; */
     width: 577px;
     height: 52px;
     padding-right: 52px;
-}
-
-.copular-c2 {
-    /* margin-top: 100px; */
+    
 }
 
 .popular {
     position: relative;
-    top: -25px;
+    top: -45px;
     color: #131318;
     font-size: 40px;
     font-style: normal;
@@ -222,7 +221,7 @@ nav li a {
 
 .popular-description {
     position: relative;
-    top: -35px;
+    top: -55px;
     color: rgba(19, 19, 24, 0.70);
     font-size: 16px;
     font-style: normal;
@@ -233,7 +232,7 @@ nav li a {
 
 .button-2 {
     position: relative;
-    top: -20px;
+    top: -35px;
     width: 174px;
     height: 52px;
     flex-shrink: 0;
@@ -250,7 +249,105 @@ nav li a {
     border: none;
 }
 
+/* section-destination */
 
+.section-destination {
+    background: #fff;
+    padding-top: 100px;
+    padding-left: 135px;
+    padding-right: 135px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    position: relative;
+    top: -60px;
+}
+
+.section-header {
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.section-description {
+    padding-left: 285px;
+    padding-right: 263px;
+    width: 643px;
+    height: 52px;
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 48px;
+    /* 162.5% */
+}
+
+
+.row-1 {
+    display: flex;
+    gap: 24px;
+    width: 573px;
+    height: 300px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+.row-2 {
+    display: flex;
+    gap: 24px;
+    margin-top: 24px;
+}
+
+.r2-img1 {
+    width: 374px;
+    height: 286px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+.r2-img2 {
+    width: 474px;
+    height: 286px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+.r2-img3 {
+    width: 274px;
+    height: 286px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+.row-3 {
+    display: flex;
+    gap: 24px;
+    margin-top: 24px;
+}
+
+.r3-img1 {
+    width: 473px;
+    height: 300px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+.r3-img2 {
+    width: 673px;
+    height: 300px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
 
 
 
